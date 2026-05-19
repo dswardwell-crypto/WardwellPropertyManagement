@@ -168,7 +168,7 @@ export default function App() {
             <p className="section-copy">Reach out to discuss your property, what you need help with, and whether Wardwell Property Management would be a good fit.</p>
             <div className="contact-lines">
               <div className="contact-line"><Phone size={20} /><span>Phone: 229-300-6561</span></div>
-              <div className="contact-line"><Mail size={20} /><span>Email: davis.property@icloud.com address</span></div>
+              <div className="contact-line"><Mail size={20} /><span>Email: davis@wardwellpropertymanagement.com address</span></div>
               <div className="contact-line"><MapPin size={20} /><span>Cook County and South Georgia</span></div>
             </div>
           </div>
