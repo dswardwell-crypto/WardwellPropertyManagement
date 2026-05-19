@@ -8,7 +8,6 @@ const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mlgvggww'
 
 const navItems = [
   { label: 'Home', path: '/' },
-  { label: 'Services', path: '/services' },
   { label: 'Owners', path: '/owners' },
   { label: 'Tenants', path: '/tenants' },
   { label: 'Rentals', path: '/rentals' },
@@ -475,7 +474,7 @@ function ContactForm() {
 function ContactPage() {
   return (
     <>
-      <PageHero eyebrow="Contact" title="Ready to talk about your rental property?" text="Reach out to discuss your property, what you need help with, and whether Wardwell Property Management would be a good fit." />
+      <PageHero eyebrow="Contact" title="How can we help?" text="Contact Wardwell Property Management with any questions, requests, or property-related needs. Whether you are an owner, tenant, or someone looking for more information, we would be glad to hear from you." />
       <section className="section white">
         <div className="container contact-grid">
           <div>
