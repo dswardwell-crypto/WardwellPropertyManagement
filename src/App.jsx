@@ -148,11 +148,7 @@ function HomePage({ navigate }) {
             </motion.div>
 
             <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.15 }} className="hero-card brand-card-panel">
-              <img src={businessCardFront} alt="Wardwell Property Management business card with WPM logo and slogan Management You Can Rely On" className="brand-card-image" />
-              <div className="brand-card-text">
-                <p>WPM</p>
-                <h3>Management you can rely on</h3>
-              </div>
+              <img src={businessCardFront} alt="Wardwell Property Management business card with WPM logo and slogan Management You Can Rely On" className="brand-card-image" /> 
             </motion.div>
           </div>
         </div>
