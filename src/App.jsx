@@ -172,14 +172,14 @@ export default function App() {
               <div className="contact-line"><MapPin size={20} /><span>Cook County and South Georgia</span></div>
             </div>
           </div>
-          <form className="card form">
-            <div className="field"><label>Name</label><input placeholder="Your name" /></div>
-            <div className="field"><label>Email</label><input placeholder="you@example.com" /></div>
-            <div className="field"><label>Phone</label><input placeholder="Your phone number" /></div>
-            <div className="field"><label>How can we help?</label><textarea placeholder="Tell us about your property or rental need." /></div>
-            <button type="button" className="btn btn-dark">Submit Inquiry</button>
-            <p className="note">This form is a visual placeholder. Connect it to your website platform, email service, or form provider before publishing.</p>
-          </form>
+         <form className="card form" action="https://formspree.io/f/mlgvggww" method="POST">
+  <div className="field"><label>Name</label><input name="name" placeholder="Your name" required /></div>
+  <div className="field"><label>Email</label><input name="email" type="email" placeholder="you@example.com" required /></div>
+  <div className="field"><label>Phone</label><input name="phone" placeholder="Your phone number" /></div>
+  <div className="field"><label>How can we help?</label><textarea name="message" placeholder="Tell us about your property or rental need." required /></div>
+  <button type="submit" className="btn btn-dark">Submit Inquiry</button>
+  <p className="note">We will respond to your inquiry as soon as possible.</p>
+</form>
         </div>
       </section>
 
